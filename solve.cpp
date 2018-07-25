@@ -25,15 +25,13 @@ int main()
   std::vector<int> numbers;
   parsing(static_cast<std::string>(buf), numbers);
 
-  long long now_sum = numbers.at(0);
-  long long sum_max = now_sum;
-  long long sum_min = now_sum;
+  int now_sum = numbers.at(0);
+  int sum_max = now_sum;
   for (auto iter = numbers.begin() + 1; iter != numbers.end(); ++iter) {
-    now_sum += *iter;
+    now_sum = std::max((*iter) + now_sum, (*iter));
     sum_max = std::max(sum_max, now_sum);
-    sum_min = std::min(sum_min, now_sum);
   }
 
-  printf("%lld\n", sum_max - sum_min);
+  printf("%d\n", sum_max);
   return 0;
 }
