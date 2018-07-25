@@ -1,12 +1,11 @@
+# input parse section
 nums = list(map(int, input()[1:-1].split(",")))
-if (len(nums) == 1):
-    print(nums[0])
-cur_sum = None
-prev_sum = nums[0]
+# initalize the current sum value and current maximum(in the process of traversing)
+cur_sum = nums[0]
 cur_max = nums[0]
 for i in range(1, len(nums)):
-    cur_sum = max(prev_sum + nums[i], nums[i])
-    if cur_max < cur_sum:
-        cur_max = cur_sum
-    prev_sum = cur_sum
+	# Hint: whether a new start will lead to a larger sum?
+    cur_sum = max(cur_sum + nums[i], nums[i])
+    # May previous array has larger sum
+    cur_max = max(cur_max, cur_sum)
 print(cur_max)
