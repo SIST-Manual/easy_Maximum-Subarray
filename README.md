@@ -37,7 +37,7 @@ e.g: [-2,1,-3,4,-1,2,1,-5,4]
 
 `Note`: Input of local standard script is different from the one of online platform. Tailor your script before your submission to leetcode-cn according to your programming language(C++, python, pascal etc.).
 
-`提示`：给的本地测试程序和leetcode-cn在线评测平台有不同的输入方式。请修改你的代码以适应在线的平台的规范。注意不同编程语言有不同规范，例如：C++, python, pascal等。
+`提示`：给的本地标准脚本和leetcode-cn在线评测平台的脚本有不同的输入方式。请修改你的代码以适应在线的平台的规范。注意不同编程语言有不同规范，例如：C++, python, pascal等。
 
 
 ## 输出 / Output
