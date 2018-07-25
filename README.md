@@ -36,7 +36,7 @@ An integer
 
 e.g: 6
 
-Explanation: The max subsequence is [-4, -1, 2, 1] with the sum of 6.
+Explanation: The max subsequence is [4, -1, 2, 1] with the sum of 6.
 
 解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
 
