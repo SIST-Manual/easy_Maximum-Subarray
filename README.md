@@ -73,4 +73,7 @@ Explanation: The answer is according to the previous section. The max subsequenc
 ## 答案 / Solutions
 
 [Python](https://github.com/SIST-Manual/easy_Maximum-Subarray/blob/master/solve.py)
+
 [C++](https://github.com/SIST-Manual/easy_Maximum-Subarray/blob/master/solve.cpp)
+
+[C](https://github.com/SIST-Manual/easy_Maximum-Subarray/blob/master/solve.c)
