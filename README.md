@@ -56,7 +56,7 @@ Explanation: The answer is according to the previous section. The max subsequenc
 
 ### input1
 
-[-1, -2]
+[-1,-2]
 
 ### output1
 
